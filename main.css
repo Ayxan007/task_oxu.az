@@ -1,0 +1,53 @@
+.new {
+  padding: 100px 250px;
+}
+
+.calendar {
+  color: #8c8c8c;
+  padding-top: 10px;
+}
+
+.title {
+  padding-top: 10px;
+}
+.title span {
+  color: #051D39;
+  font-size: 18px;
+  font-family: sans-serif;
+  display: flex;
+  width: 70%;
+}
+
+.footer {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.96px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1894a0;
+  display: flex;
+  gap: 10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.footer a {
+  padding-right: 150px;
+}
+
+img {
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .container img {
+    width: 300px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=main.css.map */
